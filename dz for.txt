@@ -6,16 +6,20 @@
 
         //2 Составьте программу, котораЯ вычисляет сумму чисел от 1 до 	n.значение n вводится с клавиатуры.
         int a = in.nextInt();
+        int b = 0;
         for (int i = 1; i <= a; i++ ) {
-            System.out.println(i + i);
+            b = b+i;
         }
+        System.out.println(b);
 
         //3 Составьте программу, составьте программу, которая вычисляет 	произведение чисел от 1 до n.n вводится с клавиатуры.
-        Scanner in = new Scanner(System.in); //2
+       Scanner in = new Scanner(System.in); //2
         int a = in.nextInt();
+        int b = 1;
         for (int i = 1; i <= a; i++ ) {
-            System.out.println(i * i);
+            b = b * i;
         }
+        System.out.println(b);
 
         //6 В сберкассу на трёхпроцентный вклад положили S рублей.Какой 	станет сумма вклада через N лет
         Scanner in = new Scanner(System.in);
